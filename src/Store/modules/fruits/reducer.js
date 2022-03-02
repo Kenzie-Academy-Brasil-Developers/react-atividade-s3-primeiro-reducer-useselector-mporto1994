@@ -1,4 +1,4 @@
-const initialState = ["Banana", "Maçã", "Morango"];
+const initialState = ["Banana", "Maçã", "Morango", "Pera"];
 
 const fruitsReducer = (state = initialState, action) => {
   switch (action.type) {

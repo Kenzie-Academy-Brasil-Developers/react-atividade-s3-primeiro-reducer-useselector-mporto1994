@@ -18,8 +18,7 @@ const FruitsPage = () => {
   return (
     <div>
         <input type="text" onChange={(e)=>setFruit(e.target.value)} />
-        <button onClick={()=>handleAddFruit}>Adicionar Fruta</button>
-
+        <button onClick={()=>handleAddFruit()}>Adicionar Fruta</button>
       {fruits.map((fruit) => (
         <p key={fruit}> {fruit} </p>
       ))}
